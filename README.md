@@ -24,7 +24,7 @@
 ```zsh
 root@red-$ neofetch
 ```
-<img src="assets/4k blurred.png" width="285" align="left"/>
+<img src="assets/4k blurred.png" width="250" align="left"/>
 
 ```yaml
 xRedCrystalx@github.com
@@ -44,8 +44,9 @@ Hobbies: Photographing, Gaming, Ethical Hacking
 
 <!-- Socials -->
 <div align="center">
-    [![GitHub](https://img.shields.io/badge/GitHub-100000?style=for-the-badge&logo=github&logoColor=white)](https://github.com/xRedCrystalx)
-    [![X](https://img.shields.io/badge/X-000000?style=for-the-badge&logo=x&logoColor=white)](https://x.com/xRedCrystal)
-    [![Discord](https://img.shields.io/badge/Discord-5865F2?style=for-the-badge&logo=discord&logoColor=white)](https://discord.com/users/333588605748510721)
-    [![Youtube](https://img.shields.io/badge/YouTube-FF0000?style=for-the-badge&logo=youtube&logoColor=white)](https://www.youtube.com/channel/UCYQ7OuJL8ceDbKqBG_PWdgQ)
+    <a href="https://github.com/xRedCrystalx"><img src="https://img.shields.io/badge/GitHub-100000?style=for-the-badge&logo=github&logoColor=white"></a>
+    <a href="https://x.com/xRedCrystal"><img src="https://img.shields.io/badge/X-000000?style=for-the-badge&logo=x&logoColor=white"></a>
+    <a href="https://discord.com/users/333588605748510721"><img src="https://img.shields.io/badge/Discord-5865F2?style=for-the-badge&logo=discord&logoColor=white"></a>
+    <a href="https://www.youtube.com/channel/UCYQ7OuJL8ceDbKqBG_PWdgQ"><img src="https://img.shields.io/badge/YouTube-FF0000?style=for-the-badge&logo=youtube&logoColor=white"></a>
+
 </div>
