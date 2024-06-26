@@ -11,6 +11,7 @@ body, html {
 
 .overlay {
     text-align: center;
+    position: fixed;
 }
 
 #typewriter-1, #typewriter-2, #typewriter-3 {
