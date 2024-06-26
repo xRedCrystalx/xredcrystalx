@@ -130,14 +130,8 @@ footer .socials a:hover {
     color: #ff6347;
 }
 
-
 @media only screen and (max-width: 900px) {
     html, body {
         overflow: auto;
-        height: auto;
-    }
-
-    .overlay-container {
-        height: auto;
     }
 }

@@ -37,13 +37,16 @@
 }
 
 @media only screen and (max-width: 900px) {
-    html, body {
-        overflow: scroll;
-        height: auto;
-    }
-    
     .container {
         flex-wrap: wrap;
         justify-content: center;
+    }
+
+    .item {
+        width: 100%;
+    }
+    
+    html, body {
+        overflow: auto;
     }
 }
