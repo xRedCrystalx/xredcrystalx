@@ -24,7 +24,7 @@
 ```zsh
 root@red-$ neofetch
 ```
-<img src="assets/4k blurred.png" width="250" align="left"/>
+<img src="assets/logo.png" width="275" align="left"/>
 
 ```yaml
 xRedCrystalx@github.com
@@ -48,5 +48,4 @@ Hobbies: Photographing, Gaming, Ethical Hacking
     <a href="https://x.com/xRedCrystal"><img src="https://img.shields.io/badge/X-000000?style=for-the-badge&logo=x&logoColor=white"></a>
     <a href="https://discord.com/users/333588605748510721"><img src="https://img.shields.io/badge/Discord-5865F2?style=for-the-badge&logo=discord&logoColor=white"></a>
     <a href="https://www.youtube.com/channel/UCYQ7OuJL8ceDbKqBG_PWdgQ"><img src="https://img.shields.io/badge/YouTube-FF0000?style=for-the-badge&logo=youtube&logoColor=white"></a>
-
 </div>
