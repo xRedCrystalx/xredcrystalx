@@ -1,0 +1,58 @@
+.container {
+    display: flex;
+    gap: 2vw;
+    max-width: 100%; 
+    padding-bottom: 3vh;
+}
+
+.item {
+    padding: 5vh 1vw;
+    width: 31.5%;
+    word-wrap: break-word;
+    text-align: center;
+
+    border: 0.5vh solid red;
+    border-radius: 20%;
+    display: none;
+}
+
+.item p {
+    font-size: 1.5vh;
+}
+
+.main h1 {
+    font-size: 6vh;
+    text-decoration: underline;
+}
+
+.main p {
+    font-size: 2vh;
+}
+
+.main {
+    width: 48.5%;
+}
+
+.item h1 a {
+    color: red;
+}
+
+@keyframes smooth-load {
+    from { opacity: 0; }
+    to { opacity: 1; }
+}
+
+@media only screen and (max-width: 900px) {
+    .container {
+        flex-wrap: wrap;
+        justify-content: center;
+    }
+
+    .item, .main {
+        width: 100%;
+    }
+    
+    html, body {
+        overflow: auto;
+    }
+}

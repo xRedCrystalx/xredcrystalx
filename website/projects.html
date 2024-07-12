@@ -4,6 +4,7 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="styles/global.css">
+    <link rel="stylesheet" href="styles/projects.css">
     <title>Projects</title>
 </head>
 <body>
@@ -16,9 +17,34 @@
         </ul>
     </nav>
     <canvas id="background"></canvas>
-    <div class="overlay-container" style="display: flex; justify-content: center; align-items: center;">
-        <div  class="overlay" style="font-weight: bold; text-align: center;">
-            <p style="font-size: 6vh;">Work in <span style="color: red;">progress</span>...</p>
+    <div class="overlay-container">
+        <div class="overlay" style="margin: 15vh 15vw;">
+            
+            <div class="container">
+                <div class="item main" id="noping">
+                    <h1>NoPing</h1>
+                    <p>Loading...</p>
+                </div>
+                <div class="item main" id="utils">
+                    <h1>xRedUtils</h1>
+                    <p>Loading...</p>
+                </div>
+            </div>
+
+            <div class="container">
+                <div class="item" id="proxies">
+                    <h1>RedProxies</h1>
+                    <p>Loading...</p>
+                </div>
+                <div class="item" id="crypto">
+                    <h1>RedCrypto</h1>
+                    <p>Loading...</p>
+                </div>
+                <div class="item" id="exploits">
+                    <h1>RedExploits</h1>
+                    <p>Loading...</p>
+                </div>
+            </div>
         </div>
     </div>
     <footer>
@@ -30,6 +56,28 @@
             <a href="https://discord.com/users/333588605748510721" target="_blank" aria-label="Discord"><i class="fab fa-discord"></i></a>
         </div>
     </footer>
+    <script>
+        const repos = [
+            {repo: "NoPing", elementId: "noping"},
+            {repo: "xRedUtils", elementId: "utils"},
+            {repo: "RedProxies", elementId: "proxies"},
+            {repo: "RedCrypto", elementId: "crypto"},
+            {repo: "RedExploits", elementId: "exploits"}
+        ];
+    </script>
     <script src="scripts/main_background.js"></script>
+    <script src="scripts/github_api.js"></script>
+    <script>
+        document.addEventListener("DOMContentLoaded", () => {
+            repos.forEach((repo, index) => {
+                setTimeout(() => {
+                    console.log(repo.elementId);
+                    let element = document.getElementById(repo.elementId);
+                    element.style.removeProperty("display"); // fix this nonsense
+                    element.style.animation = "smooth-load 3s ease forwards";
+                }, index * 500);
+            });
+        });
+    </script>
 </body>
 </html>
