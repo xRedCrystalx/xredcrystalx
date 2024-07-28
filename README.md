@@ -26,7 +26,7 @@ root@red-$ neofetch
 ```
 <img src="assets/logo.png" width="275" align="left"/>
 
-```yaml
+```bash
 xRedCrystalx@github.com
 ----------------------------
 OS: Windows 11, Kali Linux, Ubuntu
@@ -35,7 +35,7 @@ Shell: PowerShell 5.1, zsh 5.9
 Code Editor: VS Code
 Browser: Brave
 Tools: nmap, sqlmap, wireshark, hashcat
-       burpsuite, metasploit, ̷̶c̶̶u̶̶t̶̶s̶̶o̶̶m̶...
+       burpsuite, metasploit, custom...
 
 Pronouns: He/Him
 Hobbies: Photographing, Gaming, Ethical Hacking
@@ -49,3 +49,9 @@ Hobbies: Photographing, Gaming, Ethical Hacking
     <a href="https://discord.com/users/333588605748510721"><img src="https://img.shields.io/badge/Discord-5865F2?style=for-the-badge&logo=discord&logoColor=white"></a>
     <a href="https://www.youtube.com/channel/UCYQ7OuJL8ceDbKqBG_PWdgQ"><img src="https://img.shields.io/badge/YouTube-FF0000?style=for-the-badge&logo=youtube&logoColor=white"></a>
 </div>
+<hr>
+
+<!-- Contact -->
+<h3 align="center">
+    <samp>contact@xredcrystalx.com</samp>
+</h3>
