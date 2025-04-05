@@ -37,7 +37,7 @@ export default async function ProjectComponent({ image, github }) {
           target="_blank" rel="noopener noreferrer" 
           className="flex text-xl font-bold text-red-600"
         >
-          {repoData.full_name}
+          <code>{repoData.full_name}</code>
         </Link>
 
         <p className="text-gray-300 text-left">
@@ -45,9 +45,9 @@ export default async function ProjectComponent({ image, github }) {
         </p>
         
         <div className="flex text-sm text-gray-500">
-          <span>
+          <code>
             Stars: {repoData.stargazers_count}  |  Forks: {repoData.forks_count}  |  Issues: {repoData.open_issues_count}
-          </span>
+          </code>
         </div>
 
       </div>
