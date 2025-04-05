@@ -29,8 +29,8 @@ root@red-$ neofetch
 ```bash
 xRedCrystalx@github.com
 ----------------------------
-OS: Windows 11, Kali Linux, Ubuntu
-Shell: PowerShell 5.1, zsh 5.9
+OS: Arch, Kali, Debian
+Shell: zsh
 
 Code Editor: VS Code
 Browser: Brave
