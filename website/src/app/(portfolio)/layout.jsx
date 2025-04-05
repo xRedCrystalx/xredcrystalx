@@ -19,6 +19,7 @@ const geistMono = Geist_Mono({
   subsets: ["latin"]
 });
 
+
 export const metadata = {
   title: "xRedCrystalx",
   description: "Red's portfolio website"
@@ -43,12 +44,12 @@ export default function PortfolioLayout({ children }) {
           >
             
             <Link href="/" className="red-transition h-full flex items-center">
-              <span className="md:hidden"> <FontAwesomeIcon icon={faHome} className="h-7"/> </span>
+              <span className="md:hidden"> <FontAwesomeIcon icon={faHome} className="h-8"/> </span>
               <code className="hidden md:inline">Home</code>
             </Link>
 
             <Link href="/blog"className="red-transition h-full flex items-center">
-              <span className="md:hidden"> <FontAwesomeIcon icon={faPen} className="h-7"/> </span>
+              <span className="md:hidden"> <FontAwesomeIcon icon={faPen} className="h-8"/> </span>
               <code className="hidden md:inline">Blog</code>
             </Link>
             
@@ -57,7 +58,7 @@ export default function PortfolioLayout({ children }) {
             </Link>
             
             <Link href="mailto:contact@xredcrystalx.com" className="red-transition h-full flex items-center">
-              <span className="md:hidden"> <FontAwesomeIcon icon={faEnvelope} className="h-7 text-red-500"/> </span>
+              <span className="md:hidden"> <FontAwesomeIcon icon={faEnvelope} className="h-8 text-red-500"/> </span>
               <code 
                 className="hidden md:inline bg-red-500 text-black px-4 py-1.5 rounded-lg">
                 Contact me
