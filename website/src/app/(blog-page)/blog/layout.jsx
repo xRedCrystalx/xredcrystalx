@@ -5,22 +5,22 @@ import "@/src/styles/globals.css"
 
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 import { faDiscord, faGithub, faLinkedin, faXTwitter, faYoutube } from "@fortawesome/free-brands-svg-icons";
-import { faHome, faPen, faEnvelope } from '@fortawesome/free-solid-svg-icons';
+import { faHome, faList } from '@fortawesome/free-solid-svg-icons';
 
 
 const geistSans = Geist({
   variable: "--font-geist-sans",
-  subsets: ["latin"],
+  subsets: ["latin"]
 });
 
 const geistMono = Geist_Mono({
   variable: "--font-geist-mono",
-  subsets: ["latin"],
+  subsets: ["latin"]
 });
 
 export const metadata = {
-  title: "xRedCrystalx",
-  description: "Red's portfolio website"
+  title: "Blog",
+  description: "Red's blog website"
 };
 
 
@@ -30,43 +30,27 @@ export default function BlogLayout({ children }) {
       <body className={`${geistSans.variable} ${geistMono.variable} antialiased flex flex-col min-h-screen`}>
         
         {/* Header */}
-        <header className="relative top-3 bottom-1 left-0 w-full flex justify-center bg-transparent py-8 z-50">
-          
+        <header className="relative w-full bg-transparent z-50">
           <nav className="
-            flex flex-row gap-5 p-4 text-xl
-            pr-12 pl-12 mb-3
-
-            md:gap-15 md:text-2xl 
-  
-            font-medium font-[family-name:var(--font-geist-mono)]
-            rounded-3xl border"
+            flex flex-row gap-8 p-4 mb-3 mt-3 
+            items-center justify-center lg:justify-normal
+            text-2xl font-medium border"
           >
+            <button className="red-transition h-full pl-4">
+              <span> <FontAwesomeIcon icon={faList} className="h-7"/> </span>
+            </button>
+
+            <Link href="/" className="red-transition h-full">
+              <span> <FontAwesomeIcon icon={faHome} className="h-7"/> </span>
+            </Link>
             
-            <Link href="/" className="red-transition h-full flex items-center">
-              <span className="md:hidden"> <FontAwesomeIcon icon={faHome} className="h-7"/> </span>
-              <span className="hidden md:inline">Home</span>
+            <Link href="/rexus" className="red-transition h-full">
+              <code>Rexus</code>
             </Link>
 
-            <Link href="/blog"className="red-transition h-full flex items-center">
-              <span className="md:hidden"> <FontAwesomeIcon icon={faPen} className="h-7"/> </span>
-              <span className="hidden md:inline">Blog</span>
-            </Link>
-            
-            <Link href="/rexus" 
-              className="red-transition h-full flex items-center"
-            >Rexus
-            </Link>
-            
-            <Link href="mailto:contact@xredcrystalx.com" className="red-transition h-full flex items-center">
-              <span className="md:hidden"> <FontAwesomeIcon icon={faEnvelope} className="h-7 text-red-500"/> </span>
-              <span 
-                className="hidden md:inline bg-red-500 text-black px-4 py-1.5 rounded-lg">
-                Contact me
-              </span>
-            </Link>
           </nav>
         </header>
-        
+
         {/* Main Content */}
         {children}
         

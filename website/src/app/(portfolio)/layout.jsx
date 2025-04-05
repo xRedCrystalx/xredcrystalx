@@ -38,34 +38,32 @@ export default function PortfolioLayout({ children }) {
             flex flex-row gap-5 p-4 text-xl
             pr-12 pl-12 mb-3
 
-            md:gap-15 md:text-2xl 
-  
-            font-medium font-[family-name:var(--font-geist-mono)]
-            rounded-3xl border"
+            md:gap-15 md:text-2xl
+            font-medium rounded-3xl border"
           >
             
             <Link href="/" className="red-transition h-full flex items-center">
               <span className="md:hidden"> <FontAwesomeIcon icon={faHome} className="h-7"/> </span>
-              <span className="hidden md:inline">Home</span>
+              <code className="hidden md:inline">Home</code>
             </Link>
 
             <Link href="/blog"className="red-transition h-full flex items-center">
               <span className="md:hidden"> <FontAwesomeIcon icon={faPen} className="h-7"/> </span>
-              <span className="hidden md:inline">Blog</span>
+              <code className="hidden md:inline">Blog</code>
             </Link>
             
-            <Link href="/rexus" 
-              className="red-transition h-full flex items-center"
-            >Rexus
+            <Link href="/rexus" className="red-transition h-full flex items-center">
+              <code>Rexus</code>
             </Link>
             
             <Link href="mailto:contact@xredcrystalx.com" className="red-transition h-full flex items-center">
               <span className="md:hidden"> <FontAwesomeIcon icon={faEnvelope} className="h-7 text-red-500"/> </span>
-              <span 
+              <code 
                 className="hidden md:inline bg-red-500 text-black px-4 py-1.5 rounded-lg">
                 Contact me
-              </span>
+              </code>
             </Link>
+
           </nav>
         </header>
         
