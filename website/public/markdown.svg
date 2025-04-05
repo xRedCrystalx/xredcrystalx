@@ -1,0 +1,11 @@
+<svg version="1.2" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 128 128" width="128" height="128">
+	<title>markdown</title>
+	<defs>
+		<image  width="126" height="80" id="img1" href="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAH4AAABQAQMAAADlS1ONAAAAAXNSR0IB2cksfwAAAAZQTFRFAAAA/wAAG/+NIgAAAAJ0Uk5TAP9bkSK1AAAAbUlEQVR4nGNk/MeABP4zMbL/QBZgaGTk/4AicJBR/gGKwENG+wMoAh8Z6xtQBH5iCvxH4TP8JUbgoQISX/4u4/+DDkgC/G9HBUYFRgWGhcBDBSQBUFZnQAHEFBeEyyCMYgujYMMo+jAKR/TiEwDYQNlJtIBv/AAAAABJRU5ErkJggg=="/>
+	</defs>
+	<style>
+		.s0 { fill: #ff0000 } 
+	</style>
+	<use  href="#img1" x="1" y="24"/>
+	<path id="Path 0" class="s0" d="m20 64v20h13l0.5-21.1c7.8 10.2 10.2 13.2 10.5 13.2 0.3 0 2.8-2.9 5.5-6.3l5-6.3 0.5 20.5h13v-40h-13c-8.1 10.1-10.7 13-11 13-0.3 0-2.8-2.9-5.5-6.5l-5-6.4-13.5-0.1zm67-10v10c-8.5 0-11 0.3-11 0.8 0 0.4 4.1 5 9 10.2l9 9.5c10.9-11.6 14.9-16.2 16-17.7l2-2.8h-12v-20h-13z"/>
+</svg>
