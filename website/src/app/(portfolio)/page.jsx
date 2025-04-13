@@ -20,24 +20,23 @@ export default async function Home() {
         <div className="grid grid-cols-1 sm:grid-cols-2 2xl:grid-cols-4 gap-6">
           <SkillBlock
             title="Operating Systems:"
-            images={["android.svg", "archlinux.svg", "debian.svg", "kali.svg"]}
+            images={["logos/android.svg", "logos/archlinux.svg", "logos/debian.svg", "logos/kali.svg"]}
           />
           <SkillBlock
             title="Databases:"
-            images={["postgresql.svg", "sqlite.svg", "mariadb.svg", "mongodb.svg"]}
+            images={["logos/postgresql.svg", "logos/sqlite.svg", "logos/mariadb.svg", "logos/mongodb.svg"]}
           />
           <SkillBlock
             title="Languages:"
-            images={["python.svg", "lua.svg", "go.svg", "markdown.svg"]}
+            images={["logos/python.svg", "logos/lua.svg", "logos/go.svg", "logos/markdown.svg"]}
           /> 
           <SkillBlock
             title="Programs:"
-            images={["git.svg", "vscode.svg", "brave.svg"]}
+            images={["logos/git.svg", "logos/vscode.svg", "logos/brave.svg"]}
           />
         </div>
         <code className="text-2xl font-semibold pt-5">And much more...</code>
-
-      </div>
+      </div> 
 
       <hr className="m-15" />
 
@@ -47,7 +46,7 @@ export default async function Home() {
 
         {/* Rexus Project */}
         <div className="p-6 m-4 border rounded-lg max-w-3xl flex flex-col sm:flex-row items-center sm:items-start text-left">
-          <Image src="/rexus.png" width={200} height={200} alt="Rexus logo" className="mb-4 sm:mb-0 sm:mr-6" />
+          <Image src="/rexus.svg" width={200} height={200} alt="Rexus logo" className="mb-4 sm:mb-0 sm:mr-6" />
           
           <div className="flex flex-col items-center items-sm:start">
           
@@ -56,8 +55,12 @@ export default async function Home() {
           
 
             <div className="flex flex-row space-y-0 space-x-5 mt-5">
-              <Link href="https://discord.com/oauth2/authorize?client_id=980031906836009000" className="bg-red-500 text-black px-4 py-2 rounded-lg"><code>Invite</code></Link>
-              <Link href="/rexus" className="bg-transparent border px-4 py-2 rounded-lg" ><code>Rexus' site</code></Link>
+              <Link href="https://discord.com/oauth2/authorize?client_id=980031906836009000" className="bg-red-500 text-black px-4 py-2 rounded-lg">
+                <code>Invite</code>
+              </Link>
+              <Link href="/rexus" className="bg-transparent border px-4 py-2 rounded-lg" >
+                <code>Rexus' site</code>
+              </Link>
             
             </div>
           
@@ -67,12 +70,16 @@ export default async function Home() {
         {/* Other Projects */}
         <div className="grid grid-cols-1 md:grid-cols-2 gap-6 w-full max-w-6xl">
           <ProjectComponent 
-            image="/xredutils.png"
+            image="/xredutils.svg"
             github="https://github.com/xRedCrystalx/xRedUtils"
           />
           <ProjectComponent 
-            image="/python.svg"
+            image="logos//python.svg"
             github="https://github.com/xRedCrystalx/aiomaria"
+          />
+          <ProjectComponent 
+            image="logos//python.svg"
+            github="https://github.com/xRedCrystalx/RedProxies"
           />
         </div>
       </div>

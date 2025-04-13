@@ -42,13 +42,13 @@ export default async function AboutComponent() {
         <div id="about-buttons" className="flex flex-row space-y-0 space-x-10 mt-4">
           <Link
             href="mailto:contact@xredcrystalx.com"
-            className="bg-transparent border px-5 py-3 rounded-lg"
+            className="bg-transparent border px-5 py-3 rounded-lg font-bold"
           >
             Contact Me
           </Link>
           <Link
             href="mailto:request@xredcrystalx.com"
-            className="bg-red-500 text-black px-5 py-3 rounded-lg"
+            className="bg-red-500 text-black px-5 py-3 rounded-lg font-bold"
           >
             Request CV
           </Link>

@@ -2,7 +2,7 @@ import { Geist, Geist_Mono } from "next/font/google";
 import Link from "next/link";
 
 import "@/src/styles/globals.css";
-import BackgroundCanvas from "@/src/components/background";
+import BackgroundCanvas from "@/src/lib/background";
 
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 import { faDiscord, faGithub, faLinkedin, faXTwitter, faYoutube } from "@fortawesome/free-brands-svg-icons";

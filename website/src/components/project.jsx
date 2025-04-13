@@ -7,7 +7,12 @@ export default async function ProjectComponent({ image, github }) {
     const total = splitted.length;
 
     const response = await fetch(`https://api.github.com/repos/${splitted[total-2]}/${splitted[total-1]}`);
-    if (!response.ok) return null;
+    if (!response.ok) {
+      console.log("Response from github:", response.status);
+      console.log(await response.json());
+      
+      return null;
+    }
     
     return await response.json();
   }
