@@ -54,4 +54,6 @@ Hobbies: Photographing, Gaming, Ethical Hacking
 <!-- Contact -->
 <h3 align="center">
     <samp>contact@xredcrystalx.com</samp>
+    <br><samp>&</samp><br>
+    <a href="https://xredcrystalx.com"><samp>https://xredcrystalx.com</samp></a>
 </h3>
