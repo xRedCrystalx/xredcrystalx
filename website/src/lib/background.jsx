@@ -38,7 +38,7 @@ const BackgroundCanvas = () => {
       }
     }
 
-    const text = "Lillie";
+    const text = "Check out Rexus !";
     const startCol = Math.floor(Math.random() * (cols - text.length));
     const startRow = Math.floor(Math.random() * rows);
     const letterCoordinates = [];
