@@ -1,6 +1,7 @@
-import { Geist, Geist_Mono } from "next/font/google";
+import { Geist, Geist_Mono, Roboto } from "next/font/google";
 
 import "@/src/styles/globals.css"
+import '@fortawesome/fontawesome-svg-core/styles.css'
 
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 import { faDiscord, faGithub, faLinkedin, faXTwitter, faYoutube } from "@fortawesome/free-brands-svg-icons";
@@ -18,15 +19,20 @@ const geistMono = Geist_Mono({
   subsets: ["latin"],
 });
 
+const roboto = Roboto({
+  weight: '400',
+  subsets: ['latin'],
+})
+
 export const metadata = {
-  title: "xRedCrystalx",
-  description: "Red's portfolio website"
+  title: "Rexus",
+  description: "Rexus, advanced discord bot"
 };
 
 export default function RexusLayout({ children }) {
   return (
     <html lang="en">
-      <body className={`${geistSans.variable} ${geistMono.variable} antialiased flex flex-col min-h-screen`}>
+      <body className={`${geistSans.variable} ${geistMono.variable} ${roboto.className} antialiased flex flex-col min-h-screen`}>
 
         {/* Header */}
         <header className="relative top-3 bottom-1 left-0 w-full flex justify-center bg-transparent py-8 z-50">
@@ -40,12 +46,12 @@ export default function RexusLayout({ children }) {
           >
             
             <Link href="/" className="red-transition h-full flex items-center">
-              <span className="md:hidden"> <FontAwesomeIcon icon={faHome} className="h-7"/> </span>
+              <span className="md:hidden"> <FontAwesomeIcon icon={faHome} className="text-3xl"/> </span>
               <code className="hidden md:inline">Home</code>
             </Link>
 
             <Link href="/blog"className="red-transition h-full flex items-center">
-              <span className="md:hidden"> <FontAwesomeIcon icon={faPen} className="h-7"/> </span>
+              <span className="md:hidden"> <FontAwesomeIcon icon={faPen} className="text-3xl"/> </span>
               <code className="hidden md:inline">Blog</code>
             </Link>
             
@@ -54,7 +60,7 @@ export default function RexusLayout({ children }) {
             </Link>
             
             <Link href="mailto:contact@xredcrystalx.com" className="red-transition h-full flex items-center">
-              <span className="md:hidden"> <FontAwesomeIcon icon={faEnvelope} className="h-7 text-red-500"/> </span>
+              <span className="md:hidden"> <FontAwesomeIcon icon={faEnvelope} className="text-3xl text-red-500"/> </span>
               <code 
                 className="hidden md:inline bg-red-500 text-black px-4 py-1.5 rounded-lg">
                 Contact me
@@ -75,7 +81,7 @@ export default function RexusLayout({ children }) {
               target="_blank" rel="noopener noreferrer" 
               className="red-transition"
             >
-              <FontAwesomeIcon icon={faDiscord} className="h-10 md:h-15" />
+              <FontAwesomeIcon icon={faDiscord} className="text-4xl md:text-6xl" />
             </Link>
             
             <Link 
@@ -83,7 +89,7 @@ export default function RexusLayout({ children }) {
               target="_blank" rel="noopener noreferrer" 
               className="red-transition"
             >
-              <FontAwesomeIcon icon={faGithub} className="h-10 md:h-15" />
+              <FontAwesomeIcon icon={faGithub} className="text-4xl md:text-6xl" />
             </Link>
 
             <Link 
@@ -91,7 +97,7 @@ export default function RexusLayout({ children }) {
               target="_blank" rel="noopener noreferrer" 
               className="red-transition"
             >
-              <FontAwesomeIcon icon={faLinkedin} className="h-10 md:h-15" />
+              <FontAwesomeIcon icon={faLinkedin} className="text-4xl md:text-6xl" />
             </Link>
 
             <Link 
@@ -99,7 +105,7 @@ export default function RexusLayout({ children }) {
               target="_blank" rel="noopener noreferrer" 
               className="red-transition"
             >
-              <FontAwesomeIcon icon={faYoutube} className="h-10 md:h-15" />
+              <FontAwesomeIcon icon={faYoutube} className="text-4xl md:text-6xl" />
             </Link>
             
             <Link 
@@ -107,7 +113,7 @@ export default function RexusLayout({ children }) {
               target="_blank" rel="noopener noreferrer" 
               className="red-transition"
             >
-              <FontAwesomeIcon icon={faXTwitter} className="h-10 md:h-15" />
+              <FontAwesomeIcon icon={faXTwitter} className="text-4xl md:text-6xl" />
             </Link>
           </nav>
           

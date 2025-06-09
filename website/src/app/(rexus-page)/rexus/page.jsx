@@ -59,11 +59,11 @@ export default async function Rexus() {
           {/* Legal */}
           <div className="flex gap-4 justify-center ">
             <Link href="/rexus/tos" className="red-transition">
-              <FontAwesomeIcon icon={faScaleBalanced} className="h-10" />
+              <FontAwesomeIcon icon={faScaleBalanced} className="text-5xl" />
             </Link>
             
             <Link href="/rexus/privacy" className="red-transition">
-              <FontAwesomeIcon icon={faShieldHalved} className="h-10" />
+              <FontAwesomeIcon icon={faShieldHalved} className="text-5xl" />
             </Link>
 
           </div>
